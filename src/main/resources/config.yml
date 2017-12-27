@@ -1,11 +1,11 @@
 #     AuthMe-AutoConnect by Martiii
 
-#The server to be sended.
+#The server to be sent.
 lobby-server: lobby
 
 #The commands that will send the players to the lobby.
 #If 'l' command is not in this list, players will be
-#able to use /l <password> and not be sended to the
+#able to use '/l password' and not be sent to the
 #lobby, useful if they want to change their password.
 commands:
 - 'login'
