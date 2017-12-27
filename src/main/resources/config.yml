@@ -1,0 +1,15 @@
+#     AuthMe-AutoConnect by Martiii
+
+#The server to be sended.
+lobby-server: lobby
+
+#The commands that will send the players to the lobby.
+#If 'l' command is not in this list, players will be
+#able to use /l <password> and not be sended to the
+#lobby, useful if they want to change their password.
+commands:
+- 'login'
+- 'register'
+
+#Delay before sending players to lobby (in ticks (20 ticks = 1 second).
+send-delay: 2

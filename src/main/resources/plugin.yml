@@ -1,0 +1,8 @@
+name: AuthMe-AutoConnect
+main: me.martiii.authmeautoconnect.AuthmeAutoConnect
+version: 1.0.0
+author: Martiii
+commands:
+  authmeac:
+    permission: authmeac.admin
+    description: Authme-AutoConnect command.
