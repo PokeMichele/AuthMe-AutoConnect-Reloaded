@@ -7,8 +7,9 @@ import java.util.List;
 
 public class Config {
     public String lobbyServer;
-    public List<String> commands;
     public long sendDelay;
+    public String titleText;
+    public String subtitleText;
 
     public Config(AuthmeAutoConnect plugin){
         plugin.saveDefaultConfig();
@@ -19,7 +20,8 @@ public class Config {
         plugin.reloadConfig();
         FileConfiguration config = plugin.getConfig();
         lobbyServer = config.getString("lobby-server");
-        commands = config.getStringList("commands");
         sendDelay = config.getLong("send-delay");
+        titleText = config.getString("titleText");
+        subtitleText = config.getString("subtitleText");
     }
 }
