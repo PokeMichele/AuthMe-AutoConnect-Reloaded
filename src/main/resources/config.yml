@@ -1,8 +1,8 @@
-#     AuthMe-AutoConnect by Martiii
+#     AuthMe-AutoConnect by PokeMichele - Il Sommo
 #The server to be sent.
 lobby-server: Lobby
 #Delay before sending players to lobby (in seconds).
 send-delay: 2
 #Customizable Countdown Titles
 titleText: "&e&lConnecting to the Server..."
-subtitleText: "&e&lPlease wait"
+subtitleText: "&e&lPlease wait "

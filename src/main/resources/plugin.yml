@@ -1,7 +1,7 @@
-name: AuthMe-AutoConnect
-main: me.martiii.authmeautoconnect.AuthmeAutoConnect
+name: AuthMe-AutoConnect-Reloaded
+main: me.ilsommo.authmeautoconnect.AuthmeAutoConnect
 version: 1.0.0
-author: Martiii
+author: Il Sommo
 commands:
   authmeac:
     permission: authmeac.admin
